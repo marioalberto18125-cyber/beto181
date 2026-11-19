@@ -1,0 +1,134 @@
+/* Mis estilos personalizados - Paleta Verde y Negro */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d110e;
+    color: #f1f5f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenido-principal {
+    flex: 1;
+}
+
+/* Barra de navegacion y pie de pagina */
+.navbar, .pie-pagina {
+    background-color: #050806 !important;
+    border-bottom: 2px solid #198754;
+}
+
+.pie-pagina {
+    border-bottom: none;
+    border-top: 2px solid #198754;
+    margin-top: auto;
+}
+
+.navbar-brand {
+    color: #2ecc71 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #e0e6e2 !important;
+}
+
+.nav-link:hover {
+    color: #2ecc71 !important;
+}
+
+.dropdown-menu {
+    background-color: #141c17;
+    border: 1px solid #198754;
+}
+
+.dropdown-item {
+    color: #f1f5f2;
+}
+
+.dropdown-item:hover {
+    background-color: #198754;
+    color: #ffffff;
+}
+
+/* Caja de bienvenida */
+.caja-bienvenida {
+    background-color: #14261c;
+    border: 1px solid #1f4d36;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.caja-bienvenida h1 {
+    color: #2ecc71;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #141c17;
+    border: 1px solid #1f4d36;
+    color: #f1f5f2;
+}
+
+.card-title, h1, h2, h3, h4 {
+    color: #2ecc71;
+}
+
+.text-muted {
+    color: #9eb3a6 !important;
+}
+
+/* Botones y etiquetas */
+.btn-primary, .btn-success {
+    background-color: #198754;
+    border-color: #198754;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #146c43;
+    border-color: #146c43;
+    color: #ffffff;
+}
+
+.badge.bg-primary {
+    background-color: #198754 !important;
+    color: #ffffff;
+}
+
+/* Formularios */
+.form-control {
+    background-color: #0d110e;
+    border: 1px solid #1f4d36;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #0d110e;
+    border-color: #2ecc71;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.2rem rgba(46, 204, 113, 0.25);
+}
+
+.form-control::placeholder {
+    color: #7f9487;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+hr {
+    border-color: #1f4d36;
+    opacity: 1;
+}
+
+.foto-Mia {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #198754;
+}
